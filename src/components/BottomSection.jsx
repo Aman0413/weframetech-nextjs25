@@ -37,10 +37,15 @@ function BottomSection() {
   ];
 
   return (
-    <div className=" container p-4 bottom-section  flex flex-col justify-center items-center">
+    <div
+      className=" container p-4 bottom-section  flex flex-col justify-center items-center"
+      style={{
+        fontFamily: "Geist",
+      }}
+    >
       <div className="flex justify-center items-center flex-col py-12 ">
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-2xl text-center">
+          <h2 className="text-2xl text-center my-2">
             On s’occupe de <span className="text-skyblue font-bold">tout</span>
           </h2>
           <p className="text-gray-500 text-sm text-center">
@@ -79,7 +84,7 @@ function BottomSection() {
             className="rounded-lg"
           />
         </div>
-        <div className="bg-[#FFF3F9] w-full  md:w-[48%] md:h-60  h-72 rounded-lg p-3 space-y- ">
+        <div className="bg-[#FFF3F9] w-full  md:w-[48%] md:h-60  h-72 rounded-lg p-3 space-y-6 ">
           <h5 className="font-medium text-2xl ">
             S&apos;inscrire & éconnomiser{" "}
             <span className="text-skyblue">10%</span>

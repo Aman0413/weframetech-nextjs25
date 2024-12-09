@@ -12,10 +12,10 @@ function SimilarProduct() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-4 p-4">
-        <ProductCard width={"240px"} height={"256px"} />
-        <ProductCard width={"240px"} height={"256px"} />
-        <ProductCard width={"240px"} height={"256px"} />
-        <ProductCard width={"240px"} height={"256px"} />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
 
       <div className="flex justify-between items-center my-14">
@@ -28,10 +28,10 @@ function SimilarProduct() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 md:h-80 ">
-        <ProductCard width={"320px"} height={"256px"} />
-        <ProductCard width={"320px"} height={"256px"} />
-        <ProductCard width={"320px"} height={"256px"} />
-        <ProductCard width={"320px"} height={"256px"} />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </div>
     </div>
   );

@@ -8,60 +8,71 @@ import { IoCartOutline } from "react-icons/io5";
 
 function Navbar() {
   return (
-    <div className="container p-4 ">
-      <div className="flex my-6">
-        <div className="flex  items-center space-x-3 w-full ">
-          <div>
-            <Image src={logo} alt="logo" height={100} width={100} />
-          </div>
-
+    <div
+      className="container p-4 "
+      style={{
+        fontFamily: "Poppins",
+      }}
+    >
+      {/* Top Bar */}
+      <div className="flex my-6 items-center justify-between">
+        {/* Logo and Search Bar */}
+        <div className="flex items-center space-x-3 w-full md:w-[50%]">
+          <Image src={logo} alt="logo" height={100} width={100} />
           <input
             type="text"
             placeholder="Rechercher un produit"
-            className="bg-[#F9FAFB] w-[70%]  p-3 rounded-md text-sm focus:outline-none"
+            className="bg-[#F9FAFB] w-[70%] p-3 rounded-md text-sm focus:outline-none"
           />
         </div>
 
-        <div className="hidden w-[50%] md:flex justify-between items-center space-x-8 ">
-          <div className="flex items-center gap-1 justify-center">
-            <GoLightBulb className="text-gray-100" />
-            Inspirations
+        {/* Navigation and Icons */}
+        <div className="hidden md:flex items-center w-[50%] space-x-8 justify-end">
+          <div className="flex items-center gap-1 cursor-pointer">
+            <GoLightBulb className="text-gray-500" />
+            <span>Inspirations</span>
           </div>
-          <div className="flex items-center gap-1 justify-center  w-full">
-            <CiHeart className="text-gray-100" />
-            Mes favoris
+          <div className="flex items-center gap-1 cursor-pointer">
+            <CiHeart className="text-gray-500" />
+            <span>Mes favoris</span>
           </div>
-
-          <span className="bg-[#EAEDEE] rounded-full  text-center p-[3px] text-xs ">
+          <div className="bg-[#EAEDEE] rounded-full text-center px-2 text-xs">
             24
-          </span>
-          <button className="flex items-center bg-[#0093D0] text-white  px-3 py-2 rounded justify-center gap-1">
-            <IoCartOutline className=" font-bold text-white " />
-            Panier
+          </div>
+          <button className="flex items-center bg-[#0093D0] text-white px-3 py-2 rounded gap-1">
+            <IoCartOutline className="text-white" />
+            <span>Panier</span>
           </button>
-
           <div className="bg-[#EAEDEE] w-8 h-8 rounded-full"></div>
-
-          <div className="flex  items-center text-xs">
+          <div className="flex items-center text-xs cursor-pointer">
             FR
             <MdKeyboardArrowDown className="text-sm" />
           </div>
         </div>
       </div>
-      <div className="hidden md:block">
+
+      {/* Navigation Links */}
+      <div
+        className="hidden md:block"
+        style={{
+          fontFamily: "Inter",
+        }}
+      >
         <ul className="flex justify-between items-center text-xs text-[#5D5D5D] uppercase">
-          <li className="text-[#0093D0] font-semibold">Art de la table</li>
-          <li>Mobilier</li>
-          <li>Nappage</li>
-          <li>Matériel de salle</li>
-          <li>Cuisine</li>
-          <li>Barbecue </li>
-          <li>Tente</li>
-          <li>Chauffage</li>
-          <li>Podium - Piste de danse</li>
-          <li>Son et lumière</li>
-          <li>Packs</li>
-          <li> Consommables</li>
+          <li className="text-[#0093D0] font-semibold cursor-pointer">
+            Art de la table
+          </li>
+          <li className="cursor-pointer">Mobilier</li>
+          <li className="cursor-pointer">Nappage</li>
+          <li className="cursor-pointer">Matériel de salle</li>
+          <li className="cursor-pointer">Cuisine</li>
+          <li className="cursor-pointer">Barbecue</li>
+          <li className="cursor-pointer">Tente</li>
+          <li className="cursor-pointer">Chauffage</li>
+          <li className="cursor-pointer">Podium - Piste de danse</li>
+          <li className="cursor-pointer">Son et lumière</li>
+          <li className="cursor-pointer">Packs</li>
+          <li className="cursor-pointer">Consommables</li>
         </ul>
       </div>
     </div>

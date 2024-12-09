@@ -2,9 +2,10 @@ import React from "react";
 import { CiHeart } from "react-icons/ci";
 import img1 from "../../../public/file (1).png";
 import Image from "next/image";
-function ProductCard({ width, height }) {
+function ProductCard() {
   return (
     <div className="w-full md:w-60 md:h-64 p-2 rounded-md ">
+      {/* Card container */}
       <div className="bg-[#F8F6F4] p-2 rounded-md">
         <div className="flex justify-between items-center">
           <CiHeart className="text-xl" />
@@ -13,8 +14,9 @@ function ProductCard({ width, height }) {
           </div>
         </div>
 
+        {/* Product Image */}
         <div>
-          <Image src={img1} width={200} height={200} />
+          <Image src={img1} width={200} height={200} alt="product" />
         </div>
       </div>
 
