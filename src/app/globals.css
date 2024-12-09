@@ -1,5 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Geist", serif;
+  font-optical-sizing: auto;
+}
 
+li{
+  list-style: none;
+}
+.bottom-section{
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,219,236,1) 100%, rgba(242,107,174,1) 100%, rgba(238,65,151,1) 100%, rgba(248,176,212,1) 100%);
+}
