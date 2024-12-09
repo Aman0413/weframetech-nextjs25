@@ -10,7 +10,7 @@ function HeroSection() {
   return (
     <div className="container p-4 border-t-0.6">
       <div className="">
-        <div className="flex  w-36 text-sm justify-between">
+        <div className="flex  w-36 text-sm justify-between ml-5">
           <span>Home</span>
           <span>.</span>
           <span className="text-gray-500">Art de la table</span>

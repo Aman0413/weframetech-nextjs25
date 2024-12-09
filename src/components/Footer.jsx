@@ -5,7 +5,7 @@ import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className=" container p-4 flex flex-col md:flex-row justify-between border-t text-sm">
+    <div className=" container p-4 flex flex-col md:flex-row justify-between border-t text-sm h-80">
       <div className="flex flex-col md:flex-row justify-center items-start gap-4 md:gap-0 md:items-start  space-x-10">
         <div>
           <Logo width={100} height={100} />
@@ -33,7 +33,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col  justify-center items-center mt-10 md:mt-0">
+      <div className="flex flex-col items-center mt-10 md:mt-0">
         <span>NOUS SUIVRE</span>
         <div className="flex justify-center gap-2">
           <Icon icon={<FaTwitter />} />

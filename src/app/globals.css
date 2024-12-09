@@ -13,6 +13,6 @@ li{
   list-style: none;
 }
 .bottom-section{
-  background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,219,236,1) 100%, rgba(242,107,174,1) 100%, rgba(238,65,151,1) 100%, rgba(248,176,212,1) 100%);
+  background: rgb(238,65,151);
+  background: linear-gradient(0deg, rgba(238,65,151,1) 0%, rgba(255,255,255,1) 0%, rgba(255,254,254,1) 40%, rgba(255,250,252,1) 67%, rgba(255,252,253,1) 70%, rgba(255,249,252,1) 100%, rgba(248,176,212,1) 100%);
 }

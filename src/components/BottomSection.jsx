@@ -37,8 +37,8 @@ function BottomSection() {
   ];
 
   return (
-    <div className="container p-4  flex flex-col justify-center items-center">
-      <div className="flex justify-center items-center flex-col ">
+    <div className=" container p-4 bottom-section  flex flex-col justify-center items-center">
+      <div className="flex justify-center items-center flex-col py-12 ">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-2xl text-center">
             On s’occupe de <span className="text-skyblue font-bold">tout</span>
@@ -69,7 +69,7 @@ function BottomSection() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center w-full my-24  gap-6">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full my-12  gap-6">
         <div className="w-full md:w-[48%]">
           <Image
             src={img1}
