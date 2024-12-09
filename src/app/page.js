@@ -5,8 +5,9 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <div className="">
-      <BottomSection />
-      <Footer />
+      <Navbar />
+      {/* <BottomSection /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
