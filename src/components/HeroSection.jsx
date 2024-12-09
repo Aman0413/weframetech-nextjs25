@@ -25,11 +25,12 @@ function HeroSection() {
             width={350}
             height={350}
             alt="Cheese raclette appliance"
+            loading="lazy"
           />
         </div>
 
         {/* Product Details Section */}
-        <div className="w-full md:w-[48%] h-96 p-6 rounded-md">
+        <section className="w-full md:w-[48%] h-96 p-6 rounded-md">
           <div className="flex justify-between items-center">
             <h3
               className="text-sm md:text-2xl"
@@ -97,9 +98,9 @@ function HeroSection() {
               </button>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      <div className="w-full flex justify-center items-center mt-4">
+      <section className="w-full flex justify-center items-center mt-4">
         <div className="w-[98%] flex flex-col md:flex-row items-center justify-center gap-6 p-3 rounded-md">
           <div
             className="w-full md:w-[48%]"
@@ -138,7 +139,7 @@ function HeroSection() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

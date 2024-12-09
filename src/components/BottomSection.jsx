@@ -53,7 +53,7 @@ function BottomSection() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
+        <section className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
           {logoData.map((data, index) => {
             return (
               <>
@@ -71,10 +71,10 @@ function BottomSection() {
               </>
             );
           })}
-        </div>
+        </section>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center w-full my-12  gap-6">
+      <section className="flex flex-col md:flex-row justify-center items-center w-full my-12  gap-6">
         <div className="w-full md:w-[48%]">
           <Image
             src={img1}
@@ -82,6 +82,7 @@ function BottomSection() {
             width={550}
             height={100}
             className="rounded-lg"
+            loading="lazy"
           />
         </div>
         <div className="bg-[#FFF3F9] w-full  md:w-[48%] md:h-60  h-72 rounded-lg p-3 space-y-6 ">
@@ -108,7 +109,7 @@ function BottomSection() {
             </button>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

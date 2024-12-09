@@ -8,7 +8,7 @@ import { IoCartOutline } from "react-icons/io5";
 
 function Navbar() {
   return (
-    <div
+    <nav
       className="container p-4 "
       style={{
         fontFamily: "Poppins",
@@ -75,7 +75,7 @@ function Navbar() {
           <li className="cursor-pointer">Consommables</li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 
