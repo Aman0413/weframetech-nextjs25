@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        0.6: "0.6px", // Custom border width
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
